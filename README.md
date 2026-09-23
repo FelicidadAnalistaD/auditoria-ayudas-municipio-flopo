@@ -29,9 +29,30 @@ Esta reducción drástica de la documentación se basa en dos razones de eficien
 
 Con esta simplificación, se logrará una respuesta del "Aquí y Ahora" para las familias y personas vulnerables.
 
+## 3. Métricas Clave y KPIs
+###  Matriz de KPIs del Proyecto (Indicadores Clave de Rendimiento)
+
+Para medir el éxito de la reestructuración propuesta, definí y analicé el comportamiento de los siguientes indicadores de negocio frente a los objetivos deseados:
+
+*   **Tiempo Medio de Concesión (Lead Time):**
+    *   **Métrica:** Días transcurridos desde la solicitud hasta la entrega de la ayuda.
+    *   **Línea Base (Actual):** 43,75 días de espera promedio general.
+    *   **Meta (Target):** Menos de 15 días (Reducción del 65%).
+*   **Carga Burocrática por Expediente:**
+    *   **Métrica:** Número promedio de documentos exigidos al ciudadano.
+    *   **Línea Base (Actual):** 5,3 documentos solicitados.
+    *   **Meta (Target):** Máximo 2 documentos obligatorios (Eliminación de duplicados institucionales).
+*   **Tasa de Parálisis / Expedientes en "Limbo":**
+    *   **Métrica:** Porcentaje de solicitudes estancadas con más de 150 días sin resolución.
+    *   **Alerta Roja Detectada:** Foco crítico mapeado en la Zona Norte (la más colapsada con 5,7 documentos de media).
+*   **Índice de Vulnerabilidad Prioritaria:**
+    *   **Métrica:** Tiempo de respuesta específico para solicitantes con $0 ingresos.
+    *   **Impacto Social:** Creación del KPI de "Vía de Urgencia Automática" para garantizar entrega en un plazo máximo de 15 días al percentil más vulnerable.
+
+
 ---
 
-##  3. Detalles del Análisis y Privacidad
+##  4. Detalles del Análisis y Privacidad
 * **Datos y Privacidad:** Para respetar al máximo la privacidad de las personas y proteger la información sensible de las ayudas sociales, he elegido trabajar de forma totalmente local en mi ordenador. No he subido estos datos a ninguna plataforma de internet ni a la nube, realizando todo el proceso de forma segura en mi disco duro.
 * **Limpieza de Datos en Google Sheets:** Para poder calcular las medias de los días de espera de forma correcta sin que se estropeen los números, realicé una limpieza previa dentro de la hoja de cálculo de Google Sheets. Busqué las celdas donde ponía PENDIENTE o ERROR en la columna de días de espera y las cambié por valores vacíos. De esta forma, al llevar los datos a Power BI, el programa pudo calcular la media matemática exacta del municipio sin fallos.
 * **Gráficos e Informe en Power BI Desktop:** Diseñé una pantalla sencilla y clara para que se entienda la situación de un vistazo:
@@ -41,7 +62,7 @@ Con esta simplificación, se logrará una respuesta del "Aquí y Ahora" para las
 
 ---
 
-##  4. Conclusión y Solución del Problema
+##  5. Conclusión y Solución del Problema
 El análisis demuestra que el colapso no se debe a la falta de personal, sino a un laberinto de trámites innecesarios. Al cruzar los ingresos con los días de espera, salta a la vista que las familias con 0 ingresos, que son las que sufren la mayor vulnerabilidad, son las que más tiempo pasan atrapadas en el limbo de la administración.
 
 Para solucionar este problema de raíz de manera constructiva, llegué a la conclusión de que se debe ejecutar este cambio en el Municipio Flopo en un plazo de 3 meses mediante tres acciones:
@@ -53,7 +74,20 @@ Con estas medidas organizativas aplicadas en este plazo de 3 meses, el Municipio
 
 ---
 
-##  5. Evidencias del Cuadro de Mando
+## 6. Evidencias del Cuadro de Mando
+
+A continuación se muestra el diseño estratégico del Dashboard interactivo desarrollado en Power BI Desktop para la toma de decisiones del Municipio Flopo:
+
+<img width="1005" height="609" alt="image" src="https://github.com">
+
+
+###  Análisis Técnico de los Componentes Visuales:
+*   **KPIs de Impacto en Alerta:** Uso de tarjetas de KPI de alto contraste visual (rojo) para destacar de inmediato la gravedad de la situación: un promedio de **43,34 días de espera para Alimentos** y **44,83 días para Renta Mínima**.
+*   **Segmentación Geográfica:** Inclusión de selectores interactivos por unidad tramitadora (**Zona Centro, Zona Norte, Zona Sur**) que permiten aislar los cuellos de botella geográficos de forma dinámica.
+*   **Gráfico de Dispersión (Análisis de Correlación):** Mapeo del *Promedio de Ingresos Mensuales* frente al *Promedio de Días de Espera*. Este visual evidencia de forma contundente cómo el grueso de las solicitudes se concentra en la franja de **0 ingresos**, sufriendo retrasos institucionales inaceptables de hasta 80 y 100 días.
+
+
+<img width="1005" height="609" alt="image" src="https://github.com/user-attachments/assets/4c3d0afe-d0a7-4084-ad5b-aee81d2b7f4f" />
 
 ---
 
