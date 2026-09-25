@@ -78,6 +78,7 @@ Con estas medidas organizativas aplicadas en este plazo de 3 meses, el Municipio
 
 A continuación se muestra el diseño estratégico del Dashboard interactivo desarrollado en Power BI Desktop para la toma de decisiones del Municipio Flopo:
 
+<img width="991" height="541" alt="image" src="https://github.com/user-attachments/assets/ae84d7ad-a77b-44d1-aba4-938714cdc994" />
 
 
 
@@ -87,6 +88,8 @@ A continuación se muestra el diseño estratégico del Dashboard interactivo des
 *   **Gráfico de Dispersión (Análisis de Correlación):** Mapeo del *Promedio de Ingresos Mensuales* frente al *Promedio de Días de Espera*. Este visual evidencia de forma contundente cómo el grueso de las solicitudes se concentra en la franja de **0 ingresos**, sufriendo retrasos institucionales inaceptables de hasta 80 y 100 días.
 
 
+<img width="1319" height="577" alt="image" src="https://github.com/user-attachments/assets/7100ee3e-448e-4abf-a9a9-24ee114dbd3a" />
+<img width="1307" height="552" alt="image" src="https://github.com/user-attachments/assets/faae3e09-fd3d-4188-b62a-b95a54526817" />
 
 
 ---
