@@ -1,4 +1,4 @@
-# Ejercicio: auditoria-ayudas-municipio-flopo
+# Ejercicio Propio: auditoria-ayudas-municipio-flopo
 #  Informe de Análisis: Optimización de Ayudas Alimentarias Municipio Flopo
 
 ##  Perfil de la Analista
